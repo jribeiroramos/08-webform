@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Registrar</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Crie sua Conta</h1>
+        <form method="POST" class="form-layout">
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Endereço</label>
+                <input type="text" id="address" name="address" placeholder="Digite seu endereço" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefone</label>
+                <input type="text" id="phone" name="phone" placeholder="Digite seu telefone" required>
+            </div>
+            <button type="submit" class="btn">Registrar</button>
+        </form>
+        <p>Já tem uma conta? <a href="/login">Faça login</a></p>
+    </div>
+</body>
+</html>
